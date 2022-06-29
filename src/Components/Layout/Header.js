@@ -10,9 +10,9 @@ const Header = function () {
         <h1>Candles</h1>
         <HeaderCardButton />
       </header>
-      <div className={`${classes["main-image"]}`}>
+      {/* <div className={`${classes["main-image"]}`}>
         <img src={backgroundImage} />/
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };

@@ -1,0 +1,32 @@
+.item {
+  list-style: none;
+  padding: 2rem;
+  border-bottom: 1px solid grey;
+  display: flex;
+  gap: 6rem;
+}
+
+.item:last-child {
+  border: none;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.description {
+  font-style: italic;
+  font-size: 1.6rem;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.candle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
