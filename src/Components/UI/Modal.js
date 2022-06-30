@@ -6,9 +6,11 @@ const Modal = function (props) {
     <React.Fragment>
       <div
         onClick={props.closeCart}
-        className={props.cartIsOpen && classes.backdrop}
+        className={props.cartIsOpen ? classes.backdrop : undefined}
       ></div>
-      <div className={classes.modal}>{props.cartIsOpen && props.children}</div>
+      <div className={classes.modal}>
+        {props.cartIsOpen ? props.children : undefined}
+      </div>
     </React.Fragment>
   );
 };
