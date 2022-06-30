@@ -3,16 +3,16 @@ import classes from "./Header.module.css";
 import HeaderCardButton from "./HeaderCardButton";
 import backgroundImage from "../../assets/background.webp";
 
-const Header = function () {
+const Header = function (props) {
   return (
     <React.Fragment>
       <header className={classes.header}>
         <h1>Candles</h1>
-        <HeaderCardButton />
+        <HeaderCardButton openCart={props.openCart} />
       </header>
-      {/* <div className={`${classes["main-image"]}`}>
+      <div className={`${classes["main-image"]}`}>
         <img src={backgroundImage} />/
-      </div> */}
+      </div>
     </React.Fragment>
   );
 };

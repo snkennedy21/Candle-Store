@@ -1,0 +1,55 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+.cart-list {
+  font-size: 1.8rem;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.button-close,
+.button-order {
+  border: none;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 100px;
+}
+
+.button-close {
+  background-color: white;
+  border: 1.5px solid rgb(254, 223, 183);
+}
+
+.button-order {
+  background-color: rgb(254, 223, 183);
+}
+
+.button-close:hover,
+.button-order:hover {
+  background-color: rgb(255, 211, 154);
+  cursor: pointer;
+}
